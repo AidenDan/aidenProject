@@ -3,7 +3,8 @@ package com.k9509.demo08.demo07;
 public class MyThread implements Runnable {
     private int num = 100;
     //创建锁对象
-    private Object obj = new Object();
+    Object obj;
+    obj = new Object();
 
     @Override
     public void run() {
